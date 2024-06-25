@@ -1,0 +1,79 @@
+body{
+    font-size: 16px;
+    font-family:'Roboto' ;
+}
+.wraper{
+    width: 60%;
+    margin: 0 auto;
+}
+li{
+    display: inline-block;
+}
+.prew{
+    width: 200px;
+    height: 115px;
+    background-size: cover;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
+    
+}
+.news{
+    background-image: url(./img/news\ pr8.2.png);
+}
+.company{
+    background-image: url(./img/company\ pr8.2.png);
+}
+.interesting{
+    background-image: url(./img/interesting\ pr8.2.png);
+}
+article{
+    margin: 30px;
+    border: 2px solid black;
+}
+p, a{
+    text-align: justify;
+    margin: 0;
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 160%;
+}
+article ul a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+article ul a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+ul{
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Arial';
+}
+h3{
+    margin-left: 20px;
+}
+main .ul {
+    background: orange;
+}
+main li a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
+main li a:hover{
+    background: white;
+    color: black;
+}
+ol{
+    text-align: center;
+}
+
+
+

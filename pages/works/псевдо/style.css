@@ -1,0 +1,105 @@
+.zadanie2 li{
+    border: 1px solid blue;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    color: blue;
+}
+.zadanie2 li:hover{
+    font-weight: bold;
+}
+.zadanie2 {
+    list-style-type: none;
+}
+.zadanie3 li{
+    border: 1px solid rgb(56, 55, 53);
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 82, 80);
+}
+.zadanie3 {
+    list-style-type: none;
+}
+.zadanie3 li:hover{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color:rgb(56, 55, 53)
+}
+.zadanie4 li{
+    border: 1px solid rgb(136, 153, 230);
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 73, 219);
+}
+.zadanie4 {
+    list-style-type: none;
+}
+.zadanie4 li:hover{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color:rgb(44, 103, 231); 
+}
+.zadanie4 li:hover::after{
+    content: url(img/blue.png);
+    float: right;
+}
+.zadanie5 li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(13, 10, 228);
+    list-style-type: none;
+    border: 1px solid rgb(13, 10, 228);
+}
+.zadanie5 li:hover{
+    color: red;
+}
+.zadanie6 li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(13, 10, 228);
+    list-style-type: none;
+    border: 1px solid rgb(13, 10, 228);
+}
+.zadanie6 li:hover{
+    color: rgb(255, 252, 252);
+    background-color:rgb(56, 55, 53);
+}
+.zadanie8{
+    background: orange;
+    margin: 30px;
+    width: 700px;
+    text-decoration: dashed;
+}
+.zadanie8 li{
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    color: rgb(246, 246, 250);
+    background-color: orange;
+}
+.zadanie8 li:hover{
+    background:rgb(236, 24, 24);
+}
+.zadanie7 li{
+    display: inline-block;
+    color: rgb(177, 181, 183);
+    text-align: center;
+    margin: none;
+}
+.zadanie7 li img{
+    margin-bottom: -10px;
+}
+.zadanie7 li img:hover{
+    color: blue;
+}
+.zadanie7 li:hover{
+    font-weight: bold;
+    color:rgb(44, 103, 231);
+    opacity: 60%; 
+}

@@ -1,0 +1,78 @@
+body{
+    background: rgb(206, 173, 236);
+    font-size: 16px;
+    font-family: 'Arial';
+    
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-indent: 5%;
+}
+.p3{
+     line-height: 200%;
+}
+.p4{
+    font-size: xx-small;
+    vertical-align: baseline;
+}
+.p5{
+    word-spacing: 4px;
+}
+.p6{
+    letter-spacing: 2px;
+}
+.p7{
+    white-space: nowrap ;
+}
+.p8{
+    tab-size: 16;
+}
+.p9{
+    text-transform: uppercase;
+}
+.p10{
+    direction: rtl;
+}
+#p11{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+} 
+#p12{
+    text-decoration: underline;
+}
+#p13::first-letter{
+        font-size: 2em;
+        margin-right: 3px; 
+        color: #EE9966;
+        font-weight: bold;
+        text-shadow: -2px -2px 2px white, 2px 2px 2px #9E9D99;
+}
+#p13::first-line{
+    color:rgb(132, 37, 37);
+}
+#p14{
+    quotes: '«' '»';;
+}
+#p15{
+    font-family: "Comic Sans", Georgia, Serif;
+}
+#p16{
+    font-style: oblique;
+}
+#p17{
+    font-variant: small-caps;
+}
+#p18{
+    font-weight: bolder;
+}
+#p19{
+    font-size: 20px;
+}
+#p20{
+    color:rgb(132, 37, 37);
+}
+#p21{
+    font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
+}

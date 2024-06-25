@@ -1,0 +1,68 @@
+.wraper{
+    width: 60%;
+    margin: 0 auto;
+}
+main{
+    border: 1px solid rgb(78, 115, 216);
+}
+main ul {
+background: rgb(78, 32, 202);
+text-align: center;
+margin: 0;
+padding: 0;
+}
+main li, main li a{
+    display: inline-block;
+}
+main li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+main li a:hover{
+    background: white;
+    color: black;
+}
+*{
+    color: rgb(78, 32, 202)0;
+}
+p{
+    text-indent: 50px;
+    line-height: 33px;
+    text-align: justify;
+    margin: 0;
+    font-size: 17px;
+    padding: 0 10px;
+}
+p a {
+    font-weight: bold;
+}
+h1,h2{
+    color: #0a080a;
+    text-align: left;
+    padding-left: 20px;
+}
+div img{
+    height: 550px;
+    padding: 20px;
+    text-align: center;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.img3{
+    width: 400px;
+    height: 390px;
+    float: left;
+    padding-top: 0px;
+}
+.img2{
+    width: 400px;
+    height: 400px;
+    float: left;
+}

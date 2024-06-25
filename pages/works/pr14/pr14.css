@@ -1,0 +1,20 @@
+li{
+    text-align: center; 
+    display: block;
+}
+UL a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+}
+main ul li{
+    background:rgb(123, 14, 14); 
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    background-color: rgb(58, 57, 57);
+}

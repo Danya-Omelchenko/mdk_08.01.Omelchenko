@@ -1,0 +1,45 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: RobotoRegular;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    align-items: center;
+}
+img{
+    width: 90%;
+}
+article{
+    display: flex;
+    background: rgb(40, 36, 36);
+    flex-direction: column;
+    align-items: center;
+}
+.team{
+    width: 1170px;
+
+}
+article h5{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.team h3{
+    font-size: 38px;
+    margin: 0;
+}
+.team p{
+   color: #C2C2C2;
+   margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

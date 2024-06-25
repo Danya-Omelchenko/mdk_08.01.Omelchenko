@@ -1,0 +1,64 @@
+@keyframes slide{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    20%{
+        left: 244px;
+        top: 100px;
+    }
+    40%{
+        left: 488px;
+        top: 0;
+    }
+    60%{
+        left: 732px;
+        top: 100px;
+    }
+    80%{
+        left: 976px;
+        top: 0;
+    }
+    100%{
+        left: 1220px;
+        top: 100px;
+    }
+}
+.stage{
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 538px;
+    margin-top: 10px;
+}
+.stage:hover .ball{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
+.ball{
+    background: #2db34a;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+figure{
+    margin: 0;
+}
+p{
+    text-align: center;
+    color: #eaeaed;
+}
+body a{
+    color: black;
+    text-decoration: none;
+}
+body a:hover{
+    background: #2db34a;
+    color: #eaeaed;
+    padding: 10px;
+    border-radius: 7%;
+}

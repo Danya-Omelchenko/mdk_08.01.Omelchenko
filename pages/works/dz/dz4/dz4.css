@@ -1,0 +1,52 @@
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    width: 520px;
+    height: 600px;
+    margin: 5px;
+    background-color: rgb(158, 228, 228);
+}
+.i{
+    border-radius: 2%;
+    text-align: center;
+}
+.price{
+    color: rgb(168, 16, 16);
+}
+li{
+    display: inline-block;
+}
+img{
+    margin-top: 10px;
+    width: 480px;
+    height: 410px;
+}
+.text{
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 20px;
+}
+main li p{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.corzina{
+    width: 450px;
+    text-align: center;
+    background-color: rgb(102, 212, 107);
+    border-radius: 5%;
+}
+.corzina:hover{
+    color: black;
+    border: 2px solid rgb(102, 212, 107);
+    background-color:rgb(255, 255, 255) ;
+}

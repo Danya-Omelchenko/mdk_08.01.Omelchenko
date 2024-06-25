@@ -1,0 +1,114 @@
+body {
+    background-image: url(img/фон1.avif);
+}
+.rating{
+    display: inline-block;
+    font-size: 0;
+}
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating > span:before {
+    display: inline-flex;
+    content:'★';
+}
+.rating > span.active{
+    color: gold;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    width: 320px;
+    margin: 5px;
+}
+.i{
+    border-radius: 2%;
+}
+article .img{
+    height: 350px;
+    background: url(img/джемпер.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
+article .img1{
+    height: 350px;
+    background: url(img/шапка.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
+article .img2{
+    height: 350px;
+    background: url(img/юбка.webp);
+    background-size: cover;
+    padding-top: 20px;
+}
+section article .price{
+    color: red;
+}
+li{
+    display: inline-block;
+}
+main li a{
+    text-decoration: none;
+    color: rgb(222, 143, 143);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 35px;
+}
+main .ul {
+    background: rgb(229, 216, 191);
+    width: 1000px;
+    padding: 10px;
+}
+article:hover{
+    border: 1px solid rgb(222, 143, 143);
+    background-size: cover;
+    border-radius: 2%;
+}
+.text{
+    padding-left: 10px;
+}
+.discount{
+    width: 50px;
+    float: right;
+    color: white;
+    background:  rgb(222, 143, 143);
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+.discount::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100%;
+}
+main li p{
+    text-decoration: none;
+    color: rgb(222, 143, 143);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.corzina{
+    width: 200px;
+    text-align: center;
+    border: 3px solid rgb(222, 143, 143);
+    border-radius: 5%;
+}
+.corzine{
+    padding-top: 110px;
+}
+.corzina:hover{
+    color: black;
+    background-color:rgb(222, 143, 143) ;
+}
