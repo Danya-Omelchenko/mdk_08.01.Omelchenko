@@ -1,0 +1,113 @@
+
+body    {
+    animation: change-background 6s ease infinite;
+    font-family: 'Arial';
+    background-image: url(../img/фон1.avif);
+}
+@keyframes change-background{
+    0% {
+        background: rgb(37, 36, 39);;
+    }
+    50%{
+        background-color:  rgb(60, 50, 70);
+    }
+    100%{
+        background: rgb(60, 60, 60);
+    }
+}
+.prew{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+.new1{
+    background-image: url(../img/cska.jpg);
+}
+.new2{
+    background-image: url(../img/index.jpg);
+}
+h1{font-size: 24px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+ul{
+    background: rgb(123, 14, 14);
+}
+li{
+    padding: 10px;
+}
+.content{
+    display: flex;
+}
+#news{
+    width: 80%;
+}
+main{
+    color: azure;
+}
+aside{
+    width: 20%;
+    height: 20%;
+    background:rgb(22, 109, 208);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.skils, .courses{
+    display: flex;
+}
+.skil, .course{ 
+    margin: 20px;
+}
+.skil img,.course img{
+    width: 300px;
+    height: 200px;
+    border-radius: 2%;
+}
+header nav{
+    text-align: left;
+    margin: 30px 0;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px;
+}
+header li a:hover{
+    color: #000;
+    background: azure;
+    
+}
+.element {
+    animation-name: circle-to-square;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+.a-text{
+    color: azure;
+    background: url(../img/курсы\ по\ программированию.jpg);
+    line-height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 200px;
+    border-bottom: 3px solid black;
+}
+.pr a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color:azure;
+    font-weight: bold;
+}
+footer p{
+    text-align: center;
+    display: block;
+    background-color:rgb(123, 14, 14);
+    color: azure;
+}
